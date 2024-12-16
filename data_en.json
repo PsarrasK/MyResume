@@ -1,0 +1,518 @@
+{
+  "personal": {
+    "firstName": "Konstantinos",
+    "lastName": "Psarras",
+    "role": "Quality Assurance Engineer <br>& Developer"
+  },
+  "contact": [
+    {
+      "title": "LinkedIn",
+      "text": "/psarrask",
+      "link": "https://linkedin.com/in/psarrask/",
+      "icon": "assets/icons/LinkedIn.svg",
+      "hoverDesc": "Find on LinkedIn"
+    },
+    {
+      "title": "GitHub",
+      "text": "/psarrask",
+      "link": "https://github.com/psarrask",
+      "icon": "assets/icons/skills_github.svg",
+      "hoverDesc": "Find on GitHub"
+    },
+    {
+      "title": "Email",
+      "text": "p14psar@gmail.com",
+      "link": "mailto:p14psar@gmail.com",
+      "icon": "assets/icons/ui_contact_mail.svg",
+      "hoverDesc": "Send a mail"
+    },
+    {
+      "title": "Phone",
+      "text": "+30 694 634 9533",
+      "link": "tel:+306946349533",
+      "icon": "assets/icons/ui_contact_call.svg",
+      "hoverDesc": "Call"
+    },
+    {
+      "title": "Location",
+      "text": "Athens, Pangrati",
+      "link": "https://maps.app.goo.gl/fdETG5MFWGDrVJWy5",
+      "icon": "assets/icons/ui_contact_location.svg",
+      "hoverDesc": "Approximate current residence"
+    }
+  ],
+  "bio": {
+    "title": "About",
+    "class": "biography",
+    "items": [
+      {
+        "description": "Currently working as a Quality Assurance Engineer at Intralot, I have gained a strong understanding of project workflows, support, test analysis, planning and execution. My experience comes from both working as a supportive team member and in a leadership role. I am an open-minded, calm, and creative individual who pays close attention to the details that make a project stand out. Known for being a fast learner and highly adaptable, I enjoy sharing knowledge and value teamwork. My expertise includes testing and development of websites, applications and user interfaces, on computers, smartphones, gaming consoles and gambling terminals."
+      }
+    ]
+  },
+  "edu": {
+    "title": "Education & Certifications",
+    "class": "education",
+    "grid": "timeline",
+    "items": [
+      {
+        "certTitle": "Bachelor of Science in Information Technology",
+        "class": "timeline-item",
+        "gainedSkills": "",
+        "certDetails": "Department of Informatics - Corfu",
+        "time": "2024",
+        "description": "Graduated from the Ionian University in Corfu, focusing on information systems and development."
+      },
+      {
+        "certTitle": "ECDL",
+        "class": "timeline-item",
+        "gainedSkills": "",
+        "certDetails": "KeyCERT IT Basic",
+        "time": "2014",
+        "description": "Certification on Microsoft applications Internet Explorer, Outlook, Excel, Access and Word."
+      },
+      {
+        "certTitle": "English Language B2",
+        "class": "timeline-item",
+        "gainedSkills": "",
+        "certDetails": "Edexcel or Pearson Level 3",
+        "time": "2008",
+        "description": "Certification of Knowledge of the English Language at an Upper Intermediate Level."
+      },
+      {
+        "certTitle": "German Language B1",
+        "class": "timeline-item",
+        "gainedSkills": "",
+        "certDetails": "Goethe-Zertifikat B1",
+        "time": "2008",
+        "description": "Certification of Knowledge of the German Language at an Intermediate Level."
+      }
+    ]
+  },
+  "proj": {
+    "title": "Projects",
+    "class": "projects",
+    "grid": "timeline",
+    "items": [
+      {
+        "class": "timeline-item",
+        "subtitle": "Pacman - Plants vs Zombies version",
+        "link": "https://github.com/PsarrasK/Pacman",
+        "icon": "",
+        "projectCategory": "University Project",
+        "time": "2017 Q2",
+        "description": "A web browser game developed using Phaser, expanding a very minimalistic version of a Pacman game, which only featured the standard Pacman character moving on a 2D axis basic map, with no enemies or other elements.",
+        "exercisedSkills": {
+          "name": "Exercised Skills",
+          "items": [
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "Phaser Framework",
+            "Game Development",
+            "UI Design",
+            "Debugging",
+            "Version Control (Git)",
+            "Project Management",
+            "Assets creation"
+          ]
+        },
+        "responsibilities": {
+          "name": "Responsibilities",
+          "items": []
+        }
+      },
+      {
+        "class": "timeline-item",
+        "subtitle": "AnteListo - DJ Decision Support System",
+        "link": "https://github.com/PsarrasK/DJ_DSS",
+        "icon": "",
+        "projectCategory": "University Project",
+        "time": "2017 Q3",
+        "description": "A User Interface that handles given APIs, aiming to help a DJ in the decision to select the next tracks in his playlist.",
+        "exercisedSkills": {
+          "name": "Exercised Skills",
+          "items": [
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "Phaser Framework",
+            "Game Development",
+            "UI Design",
+            "Debugging",
+            "Version Control (Git)",
+            "Project Management",
+            "Assets creation"
+          ]
+        },
+        "responsibilities": {
+          "name": "Responsibilities",
+          "items": []
+        }
+      },
+      {
+        "class": "timeline-item",
+        "subtitle": "SuperMario - Crash Bandicoot version",
+        "link": "https://github.com/PsarrasK/Super-Mario",
+        "icon": "",
+        "projectCategory": "University Project",
+        "time": "2018 Q2",
+        "description": "A web browser game developed using Phaser, expanding a very minimalistic version of a Super Mario game, which only featured the standard Mario character moving on a 2D axis basic map, with no enemies or other elements.",
+        "exercisedSkills": {
+          "name": "Exercised Skills",
+          "items": [
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "Phaser Framework",
+            "Game Development",
+            "UI Design",
+            "Debugging",
+            "Version Control (Git)",
+            "Project Management",
+            "Assets creation"
+          ]
+        },
+        "responsibilities": {
+          "name": "Responsibilities",
+          "items": []
+        }
+      },
+      {
+        "class": "timeline-item",
+        "subtitle": "Shop4Games - Wordpress shop",
+        "link": "http://tamam.dx.am/",
+        "icon": "",
+        "projectCategory": "University Project",
+        "time": "2018 Q1",
+        "description": "A gaming products oriented e-shop, developed using WordPress. The complete project's page is unfortunately not online anymore. An incomplete but funtional version can be found on the link but the full version is described <a href=\"https://drive.google.com/file/d/15xqWdcTRj17hfrv1uAgMAv6wlhKMB3YI/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link\">here <img src=\"assets/icons/ui_url.svg\" alt=\"open-in-new_icon\" class=\"icon\"></a>.",
+        "exercisedSkills": {
+          "name": "Exercised Skills",
+          "items": [
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "Phaser Framework",
+            "Game Development",
+            "UI Design",
+            "Debugging",
+            "Version Control (Git)",
+            "Project Management",
+            "Assets creation"
+          ]
+        },
+        "responsibilities": {
+          "name": "Responsibilities",
+          "items": []
+        }
+      },
+      {
+        "class": "timeline-item",
+        "subtitle": "Augmented Reality Graffiti App with Minigame in Unity",
+        "link": "https://youtu.be/I0FGlN0AB9w",
+        "icon": "",
+        "projectCategory": "University Thesis",
+        "time": "2023",
+        "description": "An application developed using Unity Engine, C# and tools like Vuforia and AR Foundation (Google's AR Core & Apple's AR Kit). In this application, users can play a graffiti themed mini game using their smartphones to build AR graffiti art by collecting AR art supplies. This application has both image tracking dependent and play everywhere functionalities and modes.",
+        "exercisedSkills": {
+          "name": "Exercised Skills",
+          "items": [
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "Phaser Framework",
+            "Game Development",
+            "UI Design",
+            "Debugging",
+            "Version Control (Git)",
+            "Project Management",
+            "Assets creation"
+          ]
+        },
+        "responsibilities": {
+          "name": "Responsibilities",
+          "items": []
+        }
+      },
+      {
+        "class": "timeline-item",
+        "subtitle": "My Resume as a page",
+        "link": "",
+        "icon": "",
+        "projectCategory": "Personal Project",
+        "time": "2024 Q4",
+        "description": "A project triggered by the need to have a custom, easily updated, free, stylish resume online page that can be updated without depending on third party software and pages.",
+        "exercisedSkills": {
+          "name": "Exercised Skills",
+          "items": [
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "Phaser Framework",
+            "Game Development",
+            "UI Design",
+            "Debugging",
+            "Version Control (Git)",
+            "Project Management",
+            "Assets creation"
+          ]
+        },
+        "responsibilities": {
+          "name": "Responsibilities",
+          "items": []
+        }
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "class": "experience",
+    "grid": "timeline",
+    "items": [
+      {
+        "class": "timeline-item",
+        "role": "Technical Support",
+        "company": "Cosmote",
+        "companyLink": "https://www.cosmote.gr/hub/",
+        "extCompany": "",
+        "extCompanyLink": "",
+        "icon": "",
+        "jobDescription": "Call Center",
+        "time": "2021 Q4",
+        "description": "I served as a technical support agent performing remote inspections and fault management on a customer's line, as well as providing support with relevant information. For this role, I utilized network understanding and troubleshooting skills to diagnose and fix network issues (where possible), delivered high quality support services while maintaining a clear and empathetic communication with the person in need (in Greek or English). Documented interactions and case history in the company's CRM for future communications and recorded service request tickets for upper level technicians in case on-site actions were needed to resolve an issue.",
+        "exercisedSkills": {
+          "name": "Exercised Skills",
+          "items": [
+            "Troubleshooting",
+            "Communication",
+            "Training and support",
+            "Ticket recording",
+            "CRM tools",
+            "Complains handling",
+            "Expectations management",
+            "Network understanding",
+            "Alternative solutions identification",
+            "Time Management",
+            "Foreign languages"
+          ]
+        },
+        "responsibilities": {
+          "name": "Responsibilities",
+          "items": [
+            "Ticket recording",
+            "History tracking",
+            "Technical issues resolution",
+            "Short service time",
+            "High resolution rate",
+            "De-escalation",
+            "Standardized Communication Protocols",
+            "Standard retail hardware support"
+          ]
+        }
+      },
+      {
+        "class": "timeline-item",
+        "role": "Quality Assurance Engineer",
+        "company": "Intralot",
+        "companyLink": "https://www.intralot.com/",
+        "extCompany": "NousPratIT",
+        "extCompanyLink": "",
+        "icon": "",
+        "jobDescription": "Software Testing",
+        "time": "2022 Q2 - Present",
+        "description": "With about three years of experience in quality assurance testing within the sports betting industry, I have honed my skills in testing desktop and mobile web pages, applications, and gambling terminals. I have been an integral part of various projects, serving both as a team member and as projects' QA lead. My responsibilities have included performing functional and user interface regression, sanity, smoke and exploratory cross-platform testing, defect investigation, recording, verification and tracking via Jira, and on-site supporting customers in UAT, training and demonstrations periods in North America and Canada. I have also gained hands-on experience in minor automation testing using Selenium IDE and managing API environments and collections in Postman. My deep understanding of company tools has allowed me to train team members and provide continuous support, ensuring the successful execution and delivery of projects. Additionally, I have actively collaborated with different departments, setting up as well as maintaining environments, and created reports and manuals to support the project's progress. My expertise in analyzing Business User Stories (BUSs) to design, maintain, and execute comprehensive tests has contributed significantly to delivering high-quality solutions.",
+        "exercisedSkills": {
+          "name": "Exercised Skills",
+          "items": [
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "Time Management",
+            "Testing",
+            "Jira",
+            "Zephyr",
+            "UI Design",
+            "Debugging",
+            "Troubleshooting",
+            "Teamwork",
+            "Communication",
+            "Training and support",
+            "Assets creation",
+            "Environments setup and maintenance",
+            "Foreign languages",
+            "Knowledge sharing"
+          ]
+        },
+        "responsibilities": {
+          "name": "Responsibilities",
+          "items": [
+            "Test planning",
+            "Test analysis",
+            "Test execution",
+            "Defect recording",
+            "Defect verification",
+            "Defect tracking",
+            "Progress Reports",
+            "UAT support",
+            "Training"
+          ]
+        }
+      }
+    ]
+  },
+  "lang": {
+    "title": "Language Skills",
+    "class": "languages",
+    "description": "Born and raised in Greece. Started learning English and a bit of German at a young age in parallel with school.",
+    "items": [
+      {
+        "title": "Greek",
+        "class": "language",
+        "percentage": "100"
+      },
+      {
+        "title": "English",
+        "class": "language",
+        "percentage": "90"
+      },
+      {
+        "title": "German",
+        "class": "language",
+        "percentage": "45"
+      }
+    ]
+  },
+  "tools": {
+    "title": "Experience with Tools",
+    "class": "tools",
+    "items": [
+      {
+        "text": "Wordpress",
+        "link": "https://wordpress.com/",
+        "icon": "assets/icons/skills_wordpress.svg",
+        "hoverDesc": ""
+      },
+      {
+        "text": "Phaser JS",
+        "link": "https://phaser.io/",
+        "icon": "assets/icons/skills_wordpress.svg",
+        "hoverDesc": ""
+      },
+      {
+        "text": "HTML",
+        "link": "https://html.spec.whatwg.org/",
+        "icon": "assets/icons/skills_html5.png",
+        "hoverDesc": ""
+      },
+      {
+        "text": "Selenium IDE",
+        "link": "https://www.selenium.dev/selenium-ide/",
+        "icon": "assets/icons/skills_seleniumIDE.png",
+        "hoverDesc": ""
+      },
+      {
+        "text": "C#",
+        "link": "https://dotnet.microsoft.com/en-us/languages/csharp",
+        "icon": "assets/icons/skills_Csharp.svg",
+        "hoverDesc": ""
+      },
+      {
+        "text": "Unity",
+        "link": "https://unity.com/",
+        "icon": "assets/icons/skills_unity.svg",
+        "hoverDesc": ""
+      },
+      {
+        "text": "CSS",
+        "link": "https://www.w3.org/Style/CSS/",
+        "icon": "assets/icons/skills_css3.png",
+        "hoverDesc": ""
+      },
+      {
+        "text": "JavaScript",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "icon": "assets/icons/skills_js.png",
+        "hoverDesc": ""
+      },
+      {
+        "text": "Microsoft Office",
+        "link": "https://www.office.com/",
+        "icon": "assets/icons/skills_office365.png",
+        "hoverDesc": ""
+      },
+      {
+        "text": "Adobe Photoshop",
+        "link": "https://www.adobe.com/gr_el/products/photoshop.html",
+        "icon": "assets/icons/skills_APs.svg",
+        "hoverDesc": ""
+      },
+      {
+        "text": "Adobe Illustrator",
+        "link": "https://www.adobe.com/gr_el/products/illustrator.html",
+        "icon": "assets/icons/skills_AI.svg",
+        "hoverDesc": ""
+      },
+      {
+        "text": "GIMP",
+        "link": "https://www.gimp.org/",
+        "icon": "assets/icons/skills_gimp.png",
+        "hoverDesc": ""
+      },
+      {
+        "text": "Zephyr",
+        "link": "https://zephyrdocs.atlassian.net/wiki/spaces/ZFJ0300/overview",
+        "icon": "assets/icons/skills_zephyr.svg",
+        "hoverDesc": ""
+      },
+      {
+        "text": "Blender",
+        "link": "https://www.blender.org/",
+        "icon": "assets/icons/skills_blender.png",
+        "hoverDesc": ""
+      },
+      {
+        "text": "Jira",
+        "link": "https://www.atlassian.com/software/jira",
+        "icon": "assets/icons/skills_jira.svg",
+        "hoverDesc": ""
+      },
+      {
+        "text": "Postman",
+        "link": "https://www.postman.com/",
+        "icon": "assets/icons/skills_postman.png",
+        "hoverDesc": ""
+      }
+    ]
+  },
+  "other": {
+    "title": "Other Information",
+    "class": "other",
+    "items": [
+      "Driving licence Class A (motorcycle)",
+      "Driving licence Class B (car)",
+      "SARS-Cov-2 Vaccinated",
+      "Military obligations completed"
+    ]
+  },
+  "interests": {
+    "title": "Interests",
+    "class": "interests",
+    "items": [
+      "Video Games",
+      "Gaming Consoles",
+      "Movies",
+      "Music",
+      "Graffiti",
+      "Extended Reality",
+      "Digital Arts",
+      "Repairs & Restorations",
+      "Cyber Security",
+      "PC Building",
+      "Do-It-Yourself",
+      "Drawing",
+      "Hiking",
+      "Roadtrips",
+      "Coding"
+    ]
+  }
+}
