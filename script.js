@@ -204,9 +204,8 @@ const renderContent = (lang) => {
                     ${sortedItems.map(item => {
                         const {text, link, icon, hoverDesc} = item;
         
-                        // Define the content for each item
+                        // Define the content for each item <img src="${item.icon}" alt="" class="icon">
                         const skillImage = icon ? `
-                            <img src="${item.icon}" alt="" class="icon">
                             ${text || ''}
                         ` : `${text || ''}`;
         
