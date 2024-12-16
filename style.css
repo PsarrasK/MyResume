@@ -221,8 +221,6 @@ header .contactInfo {
         width: 100%;
     }
     *:hover {
-        scale: none !important;
-        font-weight: unset !important;
         filter: unset !important;
     }
 }
