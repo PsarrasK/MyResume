@@ -120,13 +120,22 @@ const renderContent = (lang) => {
                             ${item.class === "timeline-item" ? `<div class="dot2"></div>` : ""}
                             
                             <h2>
-                                ${item.companyLink ?
+                                ${item.companyLink && item.company ?
                                     `<a href="${item.companyLink}" target="_blank" rel="noopener noreferrer" class="link">
-                                    ${item.role} at ${item.company}${item.extCompany ? ` via ${item.extCompany}` : ""}
-                                    <img src="assets/icons/ui_url.svg" alt="open-in-new_icon" class="icon">
-                                </a>` :
-                                    `${item.role} at ${item.company}${item.extCompany ? ` via ${item.extCompany}` : ""}`}
+                                        ${item.role || "Worked"} at ${item.company}
+                                        <img src="assets/icons/ui_url.svg" alt="open-in-new_icon" class="icon">
+                                    </a>` :
+                                    `${item.role || "Worked"}${item.company ? ` at ${item.company}` : ""}`}
                             </h2>
+                            ${item.extCompany ?
+                                `<h2>
+                                    ${item.extCompanyLink ?
+                                        `<a href="${item.extCompanyLink}" target="_blank" rel="noopener noreferrer" class="link">
+                                            via ${item.extCompany}
+                                            <img src="assets/icons/ui_url.svg" alt="open-in-new_icon" class="icon">
+                                        </a>` :
+                                        `via ${item.extCompany}`}
+                                </h2>` : ""}
                                 
                             ${item.jobDescription ? `<h3>${item.jobDescription} | ${item.time}</h3>` : ""}
                             ${item.description ? `<p>${item.description}</p>` : ""}
