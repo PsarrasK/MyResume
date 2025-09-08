@@ -261,6 +261,30 @@
           "name": "Responsibilities",
           "items": []
         }
+      },
+      {
+        "class": "timeline-item",
+        "subtitle": "QR codes tool",
+        "link": "https://psarrask.github.io/QR_Codes_Tool/index.html",
+        "icon": "",
+        "projectCategory": "Personal Project",
+        "time": "2025 Q1",
+        "description": "A project created in order to have all the means to create the resources my team and I needed for a work project's funtionality.",
+        "exercisedSkills": {
+          "name": "Exercised Skills",
+          "items": [
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "UI Design",
+            "Debugging",
+            "Version Control (Git)"
+          ]
+        },
+        "responsibilities": {
+          "name": "Responsibilities",
+          "items": []
+        }
       }
     ]
   },
