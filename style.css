@@ -49,7 +49,8 @@ header {
     display: flex;
     color: #fff;
     text-align: center;
-    background-image: url("assets/background0.png");
+    background: linear-gradient(to bottom, rgb(0 0 0 / 40%) 0%, rgb(0 0 0 / 70%) 100%); /* Gradient fallback */
+    background-image: url(assets/background0.png), linear-gradient(to bottom, rgb(0 0 0 / 40%) 0%, rgb(0 0 0 / 70%) 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -73,7 +74,6 @@ header .photo:hover {
     /*width: 300px;
     height: 300px;*/
 }
-
 .photo.active {
     width: 210px;
     height: 210px;
@@ -83,7 +83,9 @@ header .photo:hover {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
+    align-items: center;
+    justify-content: flex-end;
     flex: 1;
 }
 header .basicInfo {
@@ -96,6 +98,7 @@ header .basicInfo {
     min-width: 340px;
     line-height: 30px;
     text-transform: uppercase;
+    max-height: 100px;
 }
 header .name {
     font-weight: 600;
@@ -140,13 +143,17 @@ header .contactInfo {
         width: 150px;
         max-width: 300px;
         height: 150px;
+        transition: all 1s;
+        object-fit: cover;
     }
-    /*
+
     .photo.active {
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
+        transition: all 1s;
+        object-fit: cover;
     }
-    */
+
     .info {
         display: flex;
         flex-direction: column;
@@ -221,6 +228,8 @@ header .contactInfo {
         width: 100%;
     }
     *:hover {
+        scale: none !important;
+        font-weight: unset !important;
         filter: unset !important;
     }
 }
@@ -419,6 +428,29 @@ footer {
     color: #888;
 }
 
+note {
+    text-align: center;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 0.7em;
+    color: #888;
+}
+
+.pdf-only {
+    visibility: hidden; /* hidden on screen */
+    height: 0;
+    overflow: hidden;
+    display: block; /* keep the element in the flow */
+}
+
+@media print {
+    .pdf-only {
+        visibility: visible; /* show in PDF */
+        height: auto;
+    }
+}
+
 .languagesContainer {
     display: flex;
     flex-direction: row;
@@ -439,14 +471,19 @@ footer {
     flex-direction: row;
     gap: 10px;
 }
-.skills{
+.bulletsInLines{
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*flex-direction: row;*/
+    /*gap: 10px;*/
+}
+.bulletsInColumns{
     columns: 250px;
     /*display: flex;*/
     /*flex-wrap: wrap;*/
     /*flex-direction: row;*/
     /*gap: 10px;*/
 }
-
 .language {
     display: flex;
     flex-direction: column;
