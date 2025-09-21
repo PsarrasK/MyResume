@@ -8,50 +8,47 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> <!-- English Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<div class="actionButtonsContainer">
-    <button id="download" class="actionButton">
-        <img src="assets/icons/ui_pdf.svg" target="_blank" alt="Save as PDF" title="Save this document as a PDF">
-    </button>
+    <div class="actionButtonsContainer">
+        <button id="download" class="actionButton">
+            <img src="assets/icons/ui_pdf.svg" target="_blank" alt="Save as PDF" title="Save this document as a PDF">
+        </button>
 
-    <button id="sort" class="actionButton">
-        <img class="sortIcon new" src="assets/icons/ui_sort_new.svg" alt="Sort by date"
-             title="Currently sorted by newest first">
-        <img class="sortIcon old" src="assets/icons/ui_sort_old.svg" alt="Sort by date"
-             title="Currently sorted by oldest first" style="display: none;">
-    </button>
-</div>
-
-<div id="printable">
-    <header>
-        <div class="container" id="header">
-            <img class="photo" src="Assets/me.png"></img>
-            <div class="info">
-                <div class="basicInfo" id="personal">
-                    <div class="name" id="firstName"></div>
-                    <div class="name" id="lastName"></div>
-                    <div class="role" id="role"></div>
-                </div>
-                <div class="contactInfo" id="contact"></div>
-            </div>
-
-        </div>
-    </header>
-
-    <div class="container" id="mainContent">
+        <button id="sort" class="actionButton">
+            <img class="sortIcon new" src="assets/icons/ui_sort_new.svg" alt="Sort by date" title="Currently sorted by newest first">
+            <img class="sortIcon old" src="assets/icons/ui_sort_old.svg" alt="Sort by date" title="Currently sorted by oldest first" style="display: none;">
+        </button>
     </div>
 
-    <footer>
-        <span id="pdfExtra"></span>
-    </footer>
-</div>
+    <div id="printable">
+        <header>
+            <div class="container" id="header">
+                <img class="photo" src="assets/me.png"></img>
+                <div class="info">
+                    <div class="basicInfo" id="personal">
+                        <div class="name" id="firstName"></div>
+                        <div class="name" id="lastName"></div>
+                        <div class="role" id="role"></div>
+                    </div>
+                    <div class="contactInfo" id="contact"></div>
+                </div>
 
-<script src="script.js"></script>
-<script src="html2pdf.bundle.js"></script>
+            </div>
+        </header>
+
+        <div class="container" id="mainContent">
+        </div>
+
+        <footer>
+            <span id="pdfExtra"></span>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="html2pdf.bundle.js"></script>
 
 </body>
 </html>
