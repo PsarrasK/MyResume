@@ -1,4 +1,12 @@
 {
+  "sectionOrder": [
+    "biography",
+    "experience",
+    "education",
+    "langsAndTools",
+    "projects",
+    "otherAndInterests"
+  ],
   "personal": {
     "firstName": "Konstantinos",
     "lastName": "Psarras",
@@ -28,8 +36,8 @@
     },
     {
       "title": "Phone",
-      "text": "+30 694 634 9533",
-      "link": "tel:+306946349533",
+      "text": "+30 694 XXX X533",
+      "link": "tel:+30694XXXX533",
       "icon": "assets/icons/ui_contact_call.svg",
       "hoverDesc": "Call"
     },
@@ -43,6 +51,7 @@
   ],
   "bio": {
     "title": "About",
+    "display": false,
     "class": "biography",
     "items": [
       {
@@ -96,14 +105,15 @@
     "items": [
       {
         "class": "timeline-item",
-        "subtitle": "Pacman - Plants vs Zombies version",
+        "title": "Pacman - Plants vs Zombies version",
         "link": "https://github.com/PsarrasK/Pacman",
         "icon": "",
-        "projectCategory": "University Project",
+        "subtitle": "",
         "time": "2017 Q2",
         "description": "A web browser game developed using Phaser, expanding a very minimalistic version of a Pacman game, which only featured the standard Pacman character moving on a 2D axis basic map, with no enemies or other elements.",
-        "exercisedSkills": {
-          "name": "Exercised Skills",
+        "subsection1": {
+          "title": "Exercised Skills",
+          "listStyle": "bulletsInColumns",
           "items": [
             "JavaScript",
             "HTML",
@@ -117,21 +127,23 @@
             "Assets creation"
           ]
         },
-        "responsibilities": {
-          "name": "Responsibilities",
+        "subsection2": {
+          "title": "Responsibilities",
+          "listStyle": "bulletsInColumns",
           "items": []
         }
       },
       {
         "class": "timeline-item",
-        "subtitle": "AnteListo - DJ Decision Support System",
+        "title": "AnteListo - DJ Decision Support System",
         "link": "https://github.com/PsarrasK/DJ_DSS",
         "icon": "",
-        "projectCategory": "University Project",
+        "subtitle": "University Project",
         "time": "2017 Q3",
         "description": "A User Interface that handles given APIs, aiming to help a DJ in the decision to select the next tracks in his playlist.",
-        "exercisedSkills": {
-          "name": "Exercised Skills",
+        "subsection1": {
+          "title": "Exercised Skills",
+          "listStyle": "bulletsInColumns",
           "items": [
             "JavaScript",
             "HTML",
@@ -145,21 +157,23 @@
             "Assets creation"
           ]
         },
-        "responsibilities": {
-          "name": "Responsibilities",
+        "subsection2": {
+          "title": "Responsibilities",
+          "listStyle": "bulletsInColumns",
           "items": []
         }
       },
       {
         "class": "timeline-item",
-        "subtitle": "SuperMario - Crash Bandicoot version",
+        "title": "SuperMario - Crash Bandicoot version",
         "link": "https://github.com/PsarrasK/Super-Mario",
         "icon": "",
-        "projectCategory": "University Project",
+        "subtitle": "University Project",
         "time": "2018 Q2",
         "description": "A web browser game developed using Phaser, expanding a very minimalistic version of a Super Mario game, which only featured the standard Mario character moving on a 2D axis basic map, with no enemies or other elements.",
-        "exercisedSkills": {
-          "name": "Exercised Skills",
+        "subsection1": {
+          "title": "Exercised Skills",
+          "listStyle": "bulletsInColumns",
           "items": [
             "JavaScript",
             "HTML",
@@ -173,21 +187,23 @@
             "Assets creation"
           ]
         },
-        "responsibilities": {
-          "name": "Responsibilities",
+        "subsection2": {
+          "title": "Responsibilities",
+          "listStyle": "bulletsInColumns",
           "items": []
         }
       },
       {
         "class": "timeline-item",
-        "subtitle": "Shop4Games - Wordpress shop",
+        "title": "Shop4Games - Wordpress shop",
         "link": "http://tamam.dx.am/",
         "icon": "",
-        "projectCategory": "University Project",
+        "subtitle": "University Project",
         "time": "2018 Q1",
         "description": "A gaming products oriented e-shop, developed using WordPress. The complete project's page is unfortunately not online anymore. An incomplete but funtional version can be found on the link but the full version is described <a href=\"https://drive.google.com/file/d/15xqWdcTRj17hfrv1uAgMAv6wlhKMB3YI/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link\">here <img src=\"assets/icons/ui_url.svg\" alt=\"open-in-new_icon\" class=\"icon\"></a>.",
-        "exercisedSkills": {
-          "name": "Exercised Skills",
+        "subsection1": {
+          "title": "Exercised Skills",
+          "listStyle": "bulletsInColumns",
           "items": [
             "JavaScript",
             "HTML",
@@ -201,21 +217,23 @@
             "Assets creation"
           ]
         },
-        "responsibilities": {
-          "name": "Responsibilities",
+        "subsection2": {
+          "title": "Responsibilities",
+          "listStyle": "bulletsInColumns",
           "items": []
         }
       },
       {
         "class": "timeline-item",
-        "subtitle": "Augmented Reality Graffiti App with Minigame in Unity",
+        "title": "Augmented Reality Graffiti App with Minigame in Unity",
         "link": "https://youtu.be/I0FGlN0AB9w",
         "icon": "",
-        "projectCategory": "University Thesis",
+        "subtitle": "University Thesis",
         "time": "2023",
         "description": "An application developed using Unity Engine, C# and tools like Vuforia and AR Foundation (Google's AR Core & Apple's AR Kit). In this application, users can play a graffiti themed mini game using their smartphones to build AR graffiti art by collecting AR art supplies. This application has both image tracking dependent and play everywhere functionalities and modes.",
-        "exercisedSkills": {
-          "name": "Exercised Skills",
+        "subsection1": {
+          "title": "Exercised Skills",
+          "listStyle": "bulletsInColumns",
           "items": [
             "JavaScript",
             "HTML",
@@ -232,21 +250,23 @@
             "Assets creation"
           ]
         },
-        "responsibilities": {
-          "name": "Responsibilities",
+        "subsection2": {
+          "title": "Responsibilities",
+          "listStyle": "bulletsInColumns",
           "items": []
         }
       },
       {
         "class": "timeline-item",
-        "subtitle": "My Resume as a page",
+        "title": "My Resume as a page",
         "link": "https://psarrask.github.io/MyResume/index.html",
         "icon": "",
-        "projectCategory": "Personal Project",
-        "time": "2024 Q4",
+        "subtitle": "Personal Project",
+        "time": "2024 Q4 - Present",
         "description": "A project triggered by the need to have a custom, easily updated, free, stylish resume online page that can be updated without depending on third party software and pages.",
-        "exercisedSkills": {
-          "name": "Exercised Skills",
+        "subsection1": {
+          "title": "Exercised Skills",
+          "listStyle": "bulletsInColumns",
           "items": [
             "JavaScript",
             "HTML",
@@ -260,21 +280,23 @@
             "Assets creation"
           ]
         },
-        "responsibilities": {
-          "name": "Responsibilities",
+        "subsection2": {
+          "title": "Responsibilities",
+          "listStyle": "bulletsInColumns",
           "items": []
         }
       },
       {
         "class": "timeline-item",
-        "subtitle": "QR codes tool",
+        "title": "QR codes tool",
         "link": "https://psarrask.github.io/QR_Codes_Tool/index.html",
         "icon": "",
-        "projectCategory": "Personal Project",
+        "subtitle": "Personal Project",
         "time": "2025 Q1",
         "description": "A project created in order to have all the means to create the resources my team and I needed for a work project's funtionality.",
-        "exercisedSkills": {
-          "name": "Exercised Skills",
+        "subsection1": {
+          "title": "Exercised Skills",
+          "listStyle": "bulletsInColumns",
           "items": [
             "JavaScript",
             "HTML",
@@ -284,8 +306,9 @@
             "Version Control (Git)"
           ]
         },
-        "responsibilities": {
-          "name": "Responsibilities",
+        "subsection2": {
+          "title": "Responsibilities",
+          "listStyle": "bulletsInColumns",
           "items": []
         }
       }
@@ -298,17 +321,18 @@
     "items": [
       {
         "class": "timeline-item",
-        "role": "Technical Support",
+        "title": "Technical Support",
         "company": "Cosmote",
         "companyLink": "https://www.cosmote.gr/hub/",
         "extCompany": "",
         "extCompanyLink": "",
         "icon": "",
-        "jobDescription": "Call Center",
+        "subtitle": "Call Center",
         "time": "2021 Q4",
         "description": "I served as a technical support agent performing remote inspections and fault management on a customer's line, as well as providing support with relevant information. For this role, I utilized network understanding and troubleshooting skills to diagnose and fix network issues (where possible), delivered high quality support services while maintaining a clear and empathetic communication with the person in need (in Greek or English). Documented interactions and case history in the company's CRM for future communications and recorded service request tickets for upper level technicians in case on-site actions were needed to resolve an issue.",
-        "exercisedSkills": {
-          "name": "Exercised Skills",
+        "subsection1": {
+          "title": "Exercised Skills",
+          "listStyle": "bulletsInColumns",
           "items": [
             "Troubleshooting",
             "Communication",
@@ -323,8 +347,9 @@
             "Foreign languages"
           ]
         },
-        "responsibilities": {
-          "name": "Responsibilities",
+        "subsection2": {
+          "title": "Responsibilities",
+          "listStyle": "bulletsInColumns",
           "items": [
             "Ticket recording",
             "History tracking",
@@ -339,17 +364,18 @@
       },
       {
         "class": "timeline-item",
-        "role": "Quality Assurance Engineer",
+        "title": "Quality Assurance Engineer",
         "company": "Intralot",
         "companyLink": "https://www.intralot.com/",
         "extCompany": "NousPratIT",
         "extCompanyLink": "https://nouspratit.gr/",
         "icon": "",
-        "jobDescription": "Software Testing",
+        "subtitle": "Software Testing",
         "time": "2022 Q2 - Present",
         "description": "With over three years of experience in quality assurance testing within the sports betting industry, I have honed my skills in testing desktop and mobile web pages, applications, and gambling terminals. I have been an integral part of various projects, serving both as a team member and as projects' QA lead. My responsibilities have included performing functional and user interface regression, sanity, smoke and exploratory cross-platform testing, defect investigation, recording, verification and tracking via Jira, and on-site supporting customers in UAT, training and demonstrations periods in North America and Canada. I have also gained hands-on experience in minor automation testing using Selenium IDE and managing API environments and collections in Postman. My deep understanding of company tools has allowed me to train team members and provide continuous support, ensuring the successful execution and delivery of projects. Additionally, I have actively collaborated with different departments, setting up as well as maintaining environments, and created reports and manuals to support the project's progress. My expertise in analyzing Business User Stories (BUSs) to design, maintain, and execute comprehensive tests has contributed significantly to delivering high-quality solutions.",
-        "exercisedSkills": {
-          "name": "Exercised Skills",
+        "subsection1": {
+          "title": "Exercised Skills",
+          "listStyle": "bulletsInColumns",
           "items": [
             "JavaScript",
             "HTML",
@@ -377,8 +403,9 @@
             "Knowledge sharing"
           ]
         },
-        "responsibilities": {
-          "name": "Responsibilities",
+        "subsection2": {
+          "title": "Responsibilities",
+          "listStyle": "bulletsInColumns",
           "items": [
             "Test planning",
             "Test analysis",
