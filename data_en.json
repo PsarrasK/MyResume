@@ -17,14 +17,14 @@
       "title": "LinkedIn",
       "text": "/psarrask",
       "link": "https://linkedin.com/in/psarrask/",
-      "icon": "assets/icons/LinkedIn.svg",
+      "icon": "assets/icons/ui_linkedin.svg",
       "hoverDesc": "Find on LinkedIn"
     },
     {
       "title": "GitHub",
       "text": "/psarrask",
       "link": "https://github.com/psarrask",
-      "icon": "assets/icons/skills_github.svg",
+      "icon": "assets/icons/ui_github.svg",
       "hoverDesc": "Find on GitHub"
     },
     {
@@ -451,97 +451,97 @@
       {
         "text": "Wordpress",
         "link": "https://wordpress.com/",
-        "icon": "assets/icons/skills_wordpress.svg",
+        "icon": "",
         "hoverDesc": ""
       },
       {
         "text": "Phaser JS",
         "link": "https://phaser.io/",
-        "icon": "assets/icons/skills_wordpress.svg",
+        "icon": "",
         "hoverDesc": ""
       },
       {
         "text": "HTML",
         "link": "https://html.spec.whatwg.org/",
-        "icon": "assets/icons/skills_html5.png",
+        "icon": "",
         "hoverDesc": ""
       },
       {
         "text": "Selenium IDE",
         "link": "https://www.selenium.dev/selenium-ide/",
-        "icon": "assets/icons/skills_seleniumIDE.png",
+        "icon": "",
         "hoverDesc": ""
       },
       {
         "text": "C#",
         "link": "https://dotnet.microsoft.com/en-us/languages/csharp",
-        "icon": "assets/icons/skills_Csharp.svg",
+        "icon": "",
         "hoverDesc": ""
       },
       {
         "text": "Unity",
         "link": "https://unity.com/",
-        "icon": "assets/icons/skills_unity.svg",
+        "icon": "",
         "hoverDesc": ""
       },
       {
         "text": "CSS",
         "link": "https://www.w3.org/Style/CSS/",
-        "icon": "assets/icons/skills_css3.png",
+        "icon": "",
         "hoverDesc": ""
       },
       {
         "text": "JavaScript",
         "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-        "icon": "assets/icons/skills_js.png",
+        "icon": "",
         "hoverDesc": ""
       },
       {
         "text": "Microsoft Office",
         "link": "https://www.office.com/",
-        "icon": "assets/icons/skills_office365.png",
+        "icon": "",
         "hoverDesc": ""
       },
       {
         "text": "Adobe Photoshop",
         "link": "https://www.adobe.com/gr_el/products/photoshop.html",
-        "icon": "assets/icons/skills_APs.svg",
+        "icon": "",
         "hoverDesc": ""
       },
       {
         "text": "Adobe Illustrator",
         "link": "https://www.adobe.com/gr_el/products/illustrator.html",
-        "icon": "assets/icons/skills_AI.svg",
+        "icon": "",
         "hoverDesc": ""
       },
       {
         "text": "GIMP",
         "link": "https://www.gimp.org/",
-        "icon": "assets/icons/skills_gimp.png",
+        "icon": "",
         "hoverDesc": ""
       },
       {
         "text": "Zephyr",
         "link": "https://zephyrdocs.atlassian.net/wiki/spaces/ZFJ0300/overview",
-        "icon": "assets/icons/skills_zephyr.svg",
+        "icon": "",
         "hoverDesc": ""
       },
       {
         "text": "Blender",
         "link": "https://www.blender.org/",
-        "icon": "assets/icons/skills_blender.png",
+        "icon": "",
         "hoverDesc": ""
       },
       {
         "text": "Jira",
         "link": "https://www.atlassian.com/software/jira",
-        "icon": "assets/icons/skills_jira.svg",
+        "icon": "",
         "hoverDesc": ""
       },
       {
         "text": "Postman",
         "link": "https://www.postman.com/",
-        "icon": "assets/icons/skills_postman.png",
+        "icon": "",
         "hoverDesc": ""
       }
     ]
